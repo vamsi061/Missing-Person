@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.mperson.missingchild">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/bg"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/bg"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MissingChild"
+        tools:targetApi="31">
+        <activity
+            android:name=".chg_pwd"
+            android:exported="false" />
+        <activity
+            android:name=".chng_pwd1"
+            android:exported="false" />
+        <activity
+            android:name=".pbviewprofile"
+            android:exported="false" />
+        <activity
+            android:name=".chng_pwd"
+            android:exported="false" />
+        <activity
+            android:name=".SingleUserProfile"
+            android:exported="false" />
+        <activity
+            android:name=".SingleUserProfile1"
+            android:exported="false" />
+        <activity
+            android:name=".userslist"
+            android:exported="false" />
+        <activity
+            android:name=".items"
+            android:exported="false" />
+        <activity
+            android:name=".Search"
+            android:exported="false" />
+        <activity
+            android:name=".compliant"
+            android:exported="false" />
+        <activity
+            android:name=".EditProfile"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".pbmainpage"
+            android:exported="true"
+            android:theme="@style/Theme.MissingChild2" />
+        <activity
+            android:name=".pcmainpage"
+            android:exported="true"
+            android:theme="@style/Theme.MissingChild1" />
+        <activity
+            android:name=".public_register"
+            android:exported="false" />
+        <activity
+            android:name=".police_register"
+            android:exported="false" />
+        <activity
+            android:name=".PublicLogin"
+            android:exported="false" />
+        <activity
+            android:name=".PoliceLogin"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.MissingChild.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

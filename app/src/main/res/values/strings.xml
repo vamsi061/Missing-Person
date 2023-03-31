@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Missing Person</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">PUBLIC</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="Public">PUBLIC</string>
+    <string name="Police">POLICE</string>
+    <string name="MissingPerson">Missing Person</string>
+    <string name="email">Enter Email</string>
+    <string name="pwd">Enter password</string>
+    <string name="fgt">Forgot Password</string>
+    <string name="submit">Submit</string>
+    <string name="Login">LOGIN</string>
+    <string name="Registernow"> Register Now</string>
+    <string name="noacc">Dont have an account?</string>
+    <string name="pclogin">POLICE LOGIN</string>
+    <string name="pblogin">PUBLIC LOGIN</string>
+    <string name="regt"> Register Now </string>
+    <string name="pcmain">POLICE HOME PAGE</string>
+    <string name="pcbmain">PUBLIC HOME PAGE</string>
+    <string name="mkids">Search Missing Kids</string>
+    <string name="about">About us</string>
+    <string name="help">Help</string>
+    <string name="profile">View Profile</string>
+    <string name="Chngpwd">Change Password</string>
+    <string name="Language">Language</string>
+    <string name="Logout">Logout</string>
+    <string name="Mpersons">MISSING PERSONS</string>
+    <string name="location">Search By Location</string>
+    <string name="name">Enter Name</string>
+    <string name="pcid">Enter police ID</string>
+    <string name="pnum">Enter Phone Number</string>
+    <string name="register">REGISTER</string>
+    <string name="aadhar">Enter Aadhar Number</string>
+    <string name="age">Age</string>
+    <string name="height">Height in FT</string>
+    <string name="Name">Name:</string>
+    <string name="Location">Location:</string>
+    <string name="Complexion">Complexion:</string>
+    <string name="aname">Alias Name:</string>
+    <string name="ftype">Face Type:</string>
+    <string name="etype">Eye Type:</string>
+    <string name="Type_person">Type of Person:</string>
+    <string name="Mpersondetails">MISSING PERSON DETAILS</string>
+    <string name="cperson">CONTACT PERSON</string>
+    <string name="firdate">FIR Date:</string>
+    <string name="firnumber">FIR Number:</string>
+    <string name="relation">Relation Ship:</string>
+    <string name="phno">Phone No:</string>
+    <string name="pstation">Police Station:</string>
+    <string name="Age">Age:</string>
+    <string name="searchbox">Search By Name,Age,Location</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="pofile">Profile</string>
+    <string name="Exit">Exit</string>
+    <string name="chngpwd">Chnage Password</string>
+    <string name="backtohome">Back to Home Page</string>
+    <string name="link">Send Link</string>
+    <string name="msd">MISSING PERSON DETAILS</string>
+    <string name="pimg">Please upload Missing person image</string>
+    <string name="mname">Missing Person Name</string>
+    <string name="district">District</string>
+    <string name="alias">Alias Name</string>
+    <string name="face">Face Type</string>
+    <string name="eye">Eye Type</string>
+    <string name="cpd">CONTACT PERSON DETAILS</string>
+    <string name="cper">Contact Person</string>
+    <string name="ph">Phone Number</string>
+    <string name="rel">Relationship</string>
+    <string name="psd">POLICE STATION DETAILS</string>
+    <string name="ps">Police Station</string>
+    <string name="fn">FIR Number</string>
+    <string name="poi">Place of Incident</string>
+
+
+    <string name="d1">" This is an innovative app which is Designed, Created and Implemented by Mohan Datta, Sarat Satya and Vamsi."</string>
+
+    <string name="d2">"1. Select the person whom do you want to find?\n2. Search the person by using their Name or Age or Location.\n3. You can change the language by clicking on Setting tab under profile page.\n4. Thank you for using."</string>
+
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_pbmainpage">pbmainpage</string>
+    <string name="title_activity_pbhomepage">pbhomepage</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="persons">
+        <item>Missing Boy</item>
+        <item>Missing Girl</item>
+        <item>Missing Men</item>
+        <item>Missing Women</item>
+    </string-array>
+</resources>

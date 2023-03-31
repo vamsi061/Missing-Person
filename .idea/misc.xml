@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2265" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/drawable/account_box_24.xml" value="0.1945" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/drawable/arrow_back_24.xml" value="0.1945" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/drawable/back_select.xml" value="0.1955" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/drawable/back_tabs.xml" value="0.1955" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/drawable/background.xml" value="0.1945" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/drawable/background1.xml" value="0.1945" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/drawable/baseline_lock_24.xml" value="0.1945" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/drawable/bcg.xml" value="0.172" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/drawable/bcg_table.xml" value="0.1915" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/drawable/bg.xml" value="0.172" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/drawable/btn_bg.xml" value="0.2265" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/drawable/btn_shape.xml" value="0.1915" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/drawable/colors_24.xml" value="0.1915" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/drawable/custom_dialog1_background.xml" value="0.2035" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/drawable/custom_dialog_background.xml" value="0.2035" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/drawable/email_24.xml" value="0.144" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/drawable/ic_account.xml" value="0.1945" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/drawable/ic_baseline_account_box_24.xml" value="0.1945" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/drawable/ic_exit_to_app.xml" value="0.1945" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/drawable/ic_home.xml" value="0.1945" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.144" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/drawable/ic_settings.xml" value="0.1945" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/drawable/lock_24.xml" value="0.144" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/drawable/login_24.xml" value="0.1945" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/drawable/police_id.xml" value="0.144" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/drawable/search_view_bg.xml" value="0.1915" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/drawable/selected_tab.xml" value="0.1955" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/drawable/settings_24.xml" value="0.1945" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/drawable/tab_rect.xml" value="0.1955" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/drawable/tab_selector.xml" value="0.1955" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/drawable/tab_text_selector.xml" value="0.1955" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/drawable/transparent_rect.xml" value="0.1945" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/drawable/view_bg.xml" value="0.1955" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/activity_add_compliant.xml" value="0.2" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/activity_chg_pwd.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/activity_chng_pwd.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/activity_chng_pwd1.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/activity_compliant.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/activity_edit_profile.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/activity_empty.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/activity_items.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/activity_items1.xml" value="0.4075382803297998" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/activity_language.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/activity_layout_home.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/activity_mp1.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/activity_mp2.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/activity_pbhomepage.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/activity_pbmainpage.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/activity_pbviewprofile.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/activity_pcmainpage.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/activity_police_login.xml" value="0.2" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/activity_police_register.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/activity_profile.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/activity_public_login.xml" value="0.22826086956521738" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/activity_public_register.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/activity_retrive_data.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/activity_search.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/activity_single_user_profile.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/activity_single_user_profile1.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/activity_userslist.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/activity_userslist1.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/contain_main.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/content_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/content_pbmainpage.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/custom_dialog1_layout.xml" value="0.24895833333333334" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/custom_dialog_layout.xml" value="0.8" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/custom_tab.xml" value="0.1875" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/fragment_contact_person.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/fragment_first.xml" value="0.22826086956521738" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/fragment_first2.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/fragment_missing_person.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/fragment_pbhomefragment.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/fragment_pbprofilefragment.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/fragment_profile.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/fragment_search.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/fragment_search1.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/fragment_second.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/fragment_second2.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/image_srcoller.xml" value="0.24895833333333334" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/image_srcoller123.xml" value="0.24895833333333334" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/item_slider.xml" value="0.24895833333333334" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/tab_cperson.xml" value="0.24895833333333334" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/tab_mperson.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/layout/toolbar.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/menu/bottom_menu.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/menu/menu_main.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.144" />
+        <entry key="..\:/AndroidStudioProjects/MissingChild2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.12" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

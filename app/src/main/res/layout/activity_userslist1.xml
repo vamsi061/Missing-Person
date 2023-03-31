@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mperson.missingchild.userslist1">
+
+   <com.google.android.material.appbar.AppBarLayout
+       android:id="@+id/appBarLayout"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       tools:ignore="MissingConstraints">
+      <androidx.appcompat.widget.Toolbar
+          android:id="@+id/toolbar"
+          android:layout_width="match_parent"
+          android:layout_height="?attr/actionBarSize"
+          android:layout_marginStart="8dp"
+          android:background="@drawable/police_solid_bg"
+          android:gravity="center"
+          app:layout_constraintStart_toStartOf="parent"
+          tools:ignore="MissingConstraints"
+          tools:layout_editor_absoluteY="0dp">
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:layout_gravity="center"
+             android:gravity="center"
+             android:text="MISSING PERSONS"
+             android:textColor="@color/white"
+             android:textSize="23dp"
+             android:textStyle="bold" />
+      </androidx.appcompat.widget.Toolbar>
+
+   </com.google.android.material.appbar.AppBarLayout>
+
+   <EditText
+       android:id="@+id/serachview"
+       android:layout_width="match_parent"
+       android:layout_height="45dp"
+       android:layout_marginLeft="15dp"
+       android:layout_marginTop="70dp"
+       android:layout_marginRight="15dp"
+       android:layout_marginBottom="8dp"
+       android:background="@drawable/search_view_bg"
+       android:drawableLeft="@drawable/ic_earch_24"
+       android:drawablePadding="10dp"
+       android:hint="Search By Name,Age,Location"
+       app:iconifiedByDefault="false"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:queryHint="Search by Name,Age,Location" />
+
+
+   <androidx.recyclerview.widget.RecyclerView
+       android:id="@+id/userList"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/serachview"
+       android:layout_marginTop="40dp"
+       android:layout_marginEnd="1dp"
+       android:layout_marginBottom="30dp"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="1.0" />
+
+   <androidx.constraintlayout.widget.Guideline
+       android:id="@+id/guideline2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       app:layout_constraintGuide_begin="20dp" />
+
+
+
+</RelativeLayout>

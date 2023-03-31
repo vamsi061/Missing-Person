@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context="com.mperson.missingchild.compliant">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/police_solid_bg"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/msd"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/pimg"
+                android:textSize="18dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_marginTop="10dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+                android:elevation="0dp"
+                app:cardCornerRadius="45dp">
+
+                <ImageButton
+                    android:id="@+id/img1"
+                    android:scaleType="centerCrop"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/in1"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginEnd="32dp"
+                android:drawableStart="@drawable/person_24"
+                android:drawablePadding="10dp"
+                android:hint="@string/mname"
+                android:padding="2dp" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="7dp"
+                    android:gravity="center"
+                    android:text="Type of Person :"
+                    android:textSize="18dp">
+
+                </TextView>
+
+                <Spinner
+                    android:id="@+id/spin1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginTop="10dp">
+
+                </Spinner>
+
+            </RelativeLayout>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/in2"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginEnd="32dp"
+                android:drawableStart="@drawable/ic_baseline_man_24"
+                android:drawablePadding="10dp"
+                android:hint="@string/age"
+                android:inputType="number"
+                android:padding="2dp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/in15"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginEnd="32dp"
+                android:drawableStart="@drawable/height_24"
+                android:drawablePadding="10dp"
+                android:hint="@string/height"
+                android:inputType="numberDecimal"
+                android:padding="2dp" />
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/in3"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginEnd="32dp"
+                android:drawableStart="@drawable/location_on_24"
+                android:drawablePadding="10dp"
+                android:hint="@string/district"
+                android:padding="2dp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/in10"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginEnd="32dp"
+                android:drawableStart="@drawable/person_search_24"
+                android:drawablePadding="10dp"
+                android:hint="@string/alias"
+                android:padding="2dp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/in4"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginEnd="32dp"
+                android:drawableStart="@drawable/ic_baseline_face_24"
+                android:drawablePadding="10dp"
+                android:hint="@string/face"
+                android:padding="2dp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/in5"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginEnd="32dp"
+                android:drawableStart="@drawable/red_eye_24"
+                android:drawablePadding="10dp"
+                android:hint="@string/eye"
+                android:padding="2dp" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="18dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="7dp"
+                    android:gravity="center"
+                    android:text="Select Complexion : "
+                    android:textSize="18dp">
+
+                </TextView>
+
+                <Spinner
+                    android:id="@+id/spin2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginTop="10dp">
+
+                </Spinner>
+
+            </RelativeLayout>
+
+            <com.google.android.material.appbar.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar1"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="@drawable/police_solid_bg"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="@string/cpd"
+                        android:textColor="@color/white"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+                </androidx.appcompat.widget.Toolbar>
+            </com.google.android.material.appbar.AppBarLayout>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/in6"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="32dp"
+                android:drawableStart="@drawable/person_24"
+                android:drawablePadding="10dp"
+                android:hint="@string/cper"
+                android:padding="2dp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/in9"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginEnd="32dp"
+                android:drawableStart="@drawable/person_outline_24"
+                android:drawablePadding="10dp"
+                android:hint="@string/rel"
+                android:inputType="text"
+                android:padding="2dp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/in7"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="32dp"
+                android:drawableStart="@drawable/ic_baseline_phone_24"
+                android:drawablePadding="10dp"
+                android:hint="@string/ph"
+                android:inputType="number"
+                android:maxLength="10"
+                android:padding="2dp" />
+
+
+            <com.google.android.material.appbar.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar3"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="@drawable/police_solid_bg"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="@string/psd"
+                        android:textColor="@color/white"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+                </androidx.appcompat.widget.Toolbar>
+            </com.google.android.material.appbar.AppBarLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="@string/firdate"
+                    android:textSize="18dp" />
+
+                <EditText
+                    android:id="@+id/dateformat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:hint="📅"
+                    android:textSize="20dp"
+                    tools:ignore="InvalidId"></EditText>
+
+            </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/in16"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginEnd="32dp"
+                android:drawableStart="@drawable/local_police_24"
+                android:drawablePadding="10dp"
+                android:hint="Police Station"
+                android:padding="2dp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/in13"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginEnd="32dp"
+                android:drawableStart="@drawable/confirmation_number_24"
+                android:drawablePadding="10dp"
+                android:hint="FIR Number"
+                android:padding="2dp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/in14"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginEnd="32dp"
+                android:drawableStart="@drawable/location_on_24"
+                android:drawablePadding="10dp"
+                android:hint="@string/poi"
+                android:padding="2dp" />
+
+
+            <Button
+                android:layout_marginBottom="10dp"
+                android:id="@+id/m1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="#007D96"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/submit"
+                android:textColor="@color/white"
+                android:textSize="23dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+</ScrollView>

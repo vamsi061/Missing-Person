@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "737690084682",
+    "firebase_url": "https://missing-child-53b3b-default-rtdb.firebaseio.com",
+    "project_id": "missing-child-53b3b",
+    "storage_bucket": "missing-child-53b3b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737690084682:android:b492c424188bc2b5344db3",
+        "android_client_info": {
+          "package_name": "com.mperson.missingchild"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "737690084682-4f7q8hmm9asgtk06m07roat8grqd1c7d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8EqITBntk04H4XpWnnAaR4Xa0iFjPlbo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "737690084682-4f7q8hmm9asgtk06m07roat8grqd1c7d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
